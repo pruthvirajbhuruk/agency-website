@@ -13,6 +13,7 @@ import CTASection from "./components/CTASection";
 import AgencyBelief from "./components/AgencyBelief";
 import FAQ from "./components/FAQ";
 import Footer from "./components/Footer";
+import AgencyIntro from "./components/AgencyIntro";
 
 export default function Home() {
   return (
@@ -20,17 +21,17 @@ export default function Home() {
       <Header />
       <main className="overflow-x-hidden">
         <Hero />
+        <AgencyIntro />
         <ScrollingText />
         <Stats />
-        <Results />
-        <ReelsGrid />
-        <HowItWorks />
-        <AgencyBelief />
-        <WhoItsFor />
-        <CTASection />
-        <OurWork />
         <Services />
+        <Results />
+        <HowItWorks />
+        <WhoItsFor />
+        <OurWork />
+        <AgencyBelief />
         <FAQ />
+        <CTASection />
         <Footer />
       </main>
     </>

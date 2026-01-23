@@ -34,17 +34,7 @@ export default function AgencyBelief() {
             We build systems that compound.
           </p>
 
-          <p className="text-black/70">
-            Attention is earned — not bought.
-            <br />
-            Growth comes from consistency, clarity and craft.
-          </p>
-
-          <p className="text-black/50">
-            If you’re here for shortcuts, we’re not a fit.
-            <br />
-            If you’re here to build something real, we’ll get along just fine.
-          </p>
+          
         </motion.div>
 
       </div>

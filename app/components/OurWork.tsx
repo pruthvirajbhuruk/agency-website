@@ -6,19 +6,19 @@ import { useState } from "react";
 
 const reels = [
   {
-    src: "/reel1.mp4",
+    src: "/video1.mp4",
     views: "1.2M",
     engagement: "8.4%",
     growth: "+32%",
   },
   {
-    src: "/reel2.mp4",
+    src: "/video2.mp4",
     views: "860K",
     engagement: "6.9%",
     growth: "+21%",
   },
   {
-    src: "/reel3.mp4",
+    src: "/video3.mp4",
     views: "2.4M",
     engagement: "11.1%",
     growth: "+54%",
@@ -26,11 +26,11 @@ const reels = [
 ];
 
 const posts = [
-  { src: "/post1.jpg" },
-  { src: "/post2.jpg" },
-  { src: "/post3.jpg" },
-  { src: "/post4.jpg" },
-  { src: "/post5.jpg" },
+  { src: "/poster1.jpeg" },
+  { src: "/Burger.png" },
+  { src: "/bodyoil.png" },
+  { src: "/Man.png" },
+  { src: "/Shoes.png" },
 ];
 
 export default function OurWork() {

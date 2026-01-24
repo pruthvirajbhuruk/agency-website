@@ -27,10 +27,11 @@ const reels = [
 
 const posts = [
   { src: "/poster1.jpeg" },
-  { src: "/Burger.png" },
+  
   { src: "/bodyoil.png" },
   { src: "/Man.png" },
   { src: "/Shoes.png" },
+  { src: "/Burger.png" },
 ];
 
 export default function OurWork() {
@@ -38,7 +39,7 @@ export default function OurWork() {
 
   return (
     <>
-      <section className="py-32 bg-white text-black">
+      <section id="work" className="py-32 bg-white text-black">
         <div className="max-w-7xl mx-auto px-6">
 
           {/* HEADING */}

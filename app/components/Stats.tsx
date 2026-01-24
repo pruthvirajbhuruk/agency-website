@@ -35,7 +35,7 @@ export default function Stats() {
 
         <div>
           <div className="text-6xl md:text-7xl font-black">
-            <Counter value={5000000} />+
+            <Counter value={1370000000} />+
           </div>
           <p className="mt-4 text-sm tracking-widest font-semibold">
             TOTAL VIEWS
@@ -44,7 +44,7 @@ export default function Stats() {
 
         <div>
           <div className="text-6xl md:text-7xl font-black">
-            <Counter value={120} />+
+            <Counter value={39} />+
           </div>
           <p className="mt-4 text-sm tracking-widest font-semibold">
             BRANDS GROWN

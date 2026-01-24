@@ -13,22 +13,29 @@ export default function Header() {
 
           {/* BRAND */}
           <div className="text-xl font-black tracking-tight">
-            ⚡ SOCIAL LAB
+           <a href="#"> ⚡ SOCIAL LAB</a>
           </div>
 
           {/* DESKTOP NAV */}
           <nav className="hidden md:flex gap-10 font-semibold">
             {["Services", "Work", "Results"].map((item) => (
-              <a key={item} className="hover:underline underline-offset-4">
+              <a key={item} 
+              
+               
+              href={item === "Services" ? "#services" : item === "Work" ? "#work" : item === "Results" ? "#results" :"#" } 
+              className="hover:underline underline-offset-4">
                 {item}
               </a>
+              
             ))}
           </nav>
 
           {/* CTA */}
-          <button className="hidden md:block px-6 py-2 bg-black text-white font-bold">
+          <a href="#contact" >
+          <button  className="hidden md:block px-6 py-2 bg-black text-white font-bold">
             Let’s Grow
           </button>
+          </a>
 
           {/* MOBILE */}
           <button

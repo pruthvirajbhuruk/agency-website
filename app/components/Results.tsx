@@ -20,7 +20,7 @@ const results = [
   {
     brand: "Local Business",
     before: "8K",
-    after: "1.2M",
+    after: "12.6M",
     label: "Video Views",
     growth: 95,
   },
@@ -28,7 +28,7 @@ const results = [
 
 export default function Results() {
   return (
-    <section className="py-32 bg-[#f2f2f2]">
+    <section id="results" className="py-32 bg-[#f2f2f2]">
       <div className="max-w-7xl mx-auto px-6">
 
         {/* SECTION TITLE */}

@@ -24,10 +24,10 @@ export default function Footer() {
           <div>
             <h4 className="font-black mb-4">Explore</h4>
             <ul className="space-y-3 text-white/70">
-              <li className="hover:text-white cursor-pointer">Services</li>
-              <li className="hover:text-white cursor-pointer">Work</li>
-              <li className="hover:text-white cursor-pointer">Results</li>
-              <li className="hover:text-white cursor-pointer">Contact</li>
+             <a href="#services"> <li className="hover:text-white cursor-pointer">Services</li></a>
+              <a href="#work"><li className="hover:text-white cursor-pointer">Work</li></a>
+              <a href="#results"><li className="hover:text-white cursor-pointer">Results</li></a>
+              
             </ul>
           </div>
 
@@ -35,9 +35,8 @@ export default function Footer() {
           <div>
             <h4 className="font-black mb-4">Get in Touch</h4>
             <ul className="space-y-3 text-white/70">
-              <li>hello@sociallab.co</li>
-              <li className="hover:text-white cursor-pointer">
-                Instagram
+                            <li className="hover:text-white cursor-pointer">
+                <a href="https://wa.me/918482907927?">Contact</a>
               </li>
             </ul>
           </div>

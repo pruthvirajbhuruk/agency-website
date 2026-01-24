@@ -29,9 +29,9 @@ export default function AgencyBelief() {
           className="space-y-8 text-lg md:text-xl font-semibold leading-relaxed"
         >
           <p>
-            We don’t chase trends.
+            We don’t chase trends blindly.
             <br />
-            We build systems that compound.
+            We analyze and build systems that compound.
           </p>
 
           

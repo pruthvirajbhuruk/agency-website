@@ -71,20 +71,15 @@ export default function Hero() {
               transition={{ type: "spring", stiffness: 200 }}
               className="w-full sm:w-auto px-8 sm:px-10 py-4 sm:py-5 bg-black text-white font-black rounded-full text-center"
             >
-              Start Growing →
+              <a href="#contact">Start Growing →</a>
             </motion.button>
 
             <button className="w-full sm:w-auto px-8 sm:px-10 py-4 sm:py-5 border-2 border-black font-bold rounded-full hover:bg-black hover:text-white transition text-center">
-              See Work
+              <a href="#work">See Work</a>
             </button>
           </div>
 
-          {/* MICRO PROOF */}
-          <div className="flex flex-wrap justify-center md:justify-start gap-4 sm:gap-6 font-semibold text-xs sm:text-sm text-black/80">
-            <span>🔥 100+ Brands</span>
-            <span>🎥 5M+ Views</span>
-            <span>📈 Real Growth</span>
-          </div>
+          
         </div>
 
         {/* RIGHT – SOCIAL PROOF */}

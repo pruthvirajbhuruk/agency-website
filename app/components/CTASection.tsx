@@ -71,7 +71,7 @@ export default function CTASection() {
   };
 
   return (
-    <section className="py-40 bg-black text-white">
+    <section id="contact" className="py-40 bg-black text-white">
       <div className="max-w-6xl mx-auto px-6">
 
         {/* HEADLINE */}

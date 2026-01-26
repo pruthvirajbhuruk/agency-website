@@ -59,11 +59,17 @@ export default function Header() {
           >
             <div className="h-full flex flex-col justify-center items-center gap-10 text-2xl font-bold">
               {["Services", "Work", "Results"].map((item) => (
-                <span key={item}>{item}</span>
+                
+                <a key={item} 
+              
+               
+              href={item === "Services" ? "#services" : item === "Work" ? "#work" : item === "Results" ? "#results" :"#" } onClick={() => setOpen(false)} >{item}</a>
               ))}
-              <button className="px-8 py-4 bg-white text-black">
+              <a href="#contact">
+              <button className="px-8 py-4 bg-white text-black" onClick={() => setOpen(false)}>
                 Let’s Grow
               </button>
+              </a>
               <button
                 onClick={() => setOpen(false)}
                 className="absolute top-6 right-6 text-3xl"

@@ -21,6 +21,12 @@ const services = [
       "We transform long-form videos into high-retention clips optimized for reach, consistency and growth.",
     items: ["Podcast Clips", "YouTube Shorts", "Daily Content System"],
   },
+  {
+    title: "Google My Business Optimization",
+    description:
+      "We Increase your google rankings by optimizaing your google profile",
+    items: ["Reviews", "Photos", "Keywords","Blogs"],
+  },
 ];
 
 export default function Services() {
